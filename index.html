@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link href="styles.css" rel="stylesheet" />
+     <title>CASH REGISTER || AMEY JOSHI</title>
+</head>
+
+<body>
+     <nav>
+          <div>CASH REGISTER</div>
+
+     </nav>
+     <section>
+          <h1>Procedure</h1>
+          <p>Please Enter the bill due and the cash amount you deposited.Also enter the cash paid in the following
+               denominations and then click on get change button, the calculated amount of change will appear in the
+               change box in the changebox.</p>
+          <ul>
+               <li>1 Rs</li>
+               <li>5 Rs</li>
+               <li>10 Rs</li>
+               <li>20 Rs</li>
+               <li>100 Rs</li>
+               <li>500 Rs</li>
+               <li>2000 Rs</li>
+
+
+          </ul>
+     </section>
+
+     <textarea id="duebill" placeholder="enter duebill"></textarea>
+
+     <textarea id="cashdeposited" placeholder="enter amount"></textarea><hr>
+
+     <button id="btnchange">GET CHANGE</button><hr>
+
+     <textarea id="amtchange" placeholder="changeamount"></textarea><hr>
+
+     
+
+<button id ="btndenominations">Get minimum number of notes</button><hr>
+<div class="changeReturn">
+     <div class="label">Return Change:</div>
+     <div id="output">
+<table>
+     <tr>
+     <th>No.of Notes</td>
+     <td class="noOfNotes"></td>
+     <td class="noOfNotes"></td>
+     <td class="noOfNotes"></td>
+     <td class="noOfNotes"></td>
+     <td class="noOfNotes"></td>
+     <td class="noOfNotes"></td>
+     <td class="noOfNotes"></td>
+     </tr>
+     <tr>
+     <th>Note</td>
+     <td>2000</td>
+     <td>500</td>
+     <td>100</td>
+     <td>20</td>
+     <td>10</td>
+     <td>5</td>
+     <td>1</td>
+     </tr>
+ </table>
+</div>
+</div>
+<div class="noChangeReturn"><p>No amount should be returned</p></div>
+
+     <script src="App.js" type="text/javascript"></script>
+</body>
+
+</html>

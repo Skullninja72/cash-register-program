@@ -1,0 +1,27 @@
+
+#output table, th, td{
+     padding: 0.2rem;
+     color: var(--dark-green);
+     background-color:var(--faint-green);
+     border: 2px solid var(--dark-green) ;
+     border-collapse: collapse;
+ }
+ .noOfNotes{
+     background-color:white;
+     font-weight: bold;
+ }
+ 
+ table{
+     width: 100%;
+     table-layout: fixed;
+ }
+ 
+ th,td{
+     word-wrap: break-word;
+ }
+
+
+table{
+     width: 100%;
+     table-layout: fixed;
+}
