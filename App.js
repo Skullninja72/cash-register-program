@@ -52,13 +52,13 @@ function calculateNotes(bill, cash){
      var returnAmt = cash-bill;
      
      if(returnAmt<1){
-         nochangeReturnDiv.style.display = "block";
-         changeReturnDiv.style.display = "none";
+         nochangeReturnDiv = "block";
+         changeReturnDiv = "none";
          return;
      }
  
-     nochangeReturnDiv.style.display = "none";
-     changeReturnDiv.style.display = "block";
+     nochangeReturnDiv = "block";
+     changeReturnDiv = "none";
  
      for(let i=0; i<arrayNoteAmt.length; i++){
          returnAmt= compare(returnAmt, arrayNoteAmt[i], i);

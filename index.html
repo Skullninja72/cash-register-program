@@ -9,42 +9,29 @@
 </head>
 
 <body>
-     <nav>
-          <div>CASH REGISTER</div>
+     <nav class="navigation container">
+          <div class="nav-brand">CASH REGISTER</div>
 
-     </nav>
-     <section>
-          <h1>Procedure</h1>
-          <p>Please Enter the bill due and the cash amount you deposited.Also enter the cash paid in the following
-               denominations and then click on get change button, the calculated amount of change will appear in the
-               change box in the changebox.</p>
-          <ul>
-               <li>1 Rs</li>
-               <li>5 Rs</li>
-               <li>10 Rs</li>
-               <li>20 Rs</li>
-               <li>100 Rs</li>
-               <li>500 Rs</li>
-               <li>2000 Rs</li>
-
-
-          </ul>
-     </section>
-
+     </nav><hr>
+     
      <textarea id="duebill" placeholder="enter duebill"></textarea>
-
+<div class=".noChangeReturn"></div>
      <textarea id="cashdeposited" placeholder="enter amount"></textarea><hr>
-
-     <button id="btnchange">GET CHANGE</button><hr>
-
-     <textarea id="amtchange" placeholder="changeamount"></textarea><hr>
 
      
 
-<button id ="btndenominations">Get minimum number of notes</button><hr>
-<div class="changeReturn">
-     <div class="label">Return Change:</div>
+     <button id="btnchange">GET CHANGE</button><hr>
+     <textarea id="amtchange" placeholder="changeamount"></textarea>
+
+     <button id ="btndenominations">GET DENOMINATION</button><hr>
+  
+
+
+<section class="section">
+     <div class="label"></div>
+     <div class =".noChangeReturn"></div>
      <div id="output">
+          
 <table>
      <tr>
      <th>No.of Notes</td>
@@ -68,8 +55,39 @@
      </tr>
  </table>
 </div>
-</div>
-<div class="noChangeReturn"><p>No amount should be returned</p></div>
+
+</section><hr>
+
+
+<footer class="footer">
+     <div class="footer-header">
+         View my profile on
+     </div>
+     <ul class="social-links lists-non-bullet">
+         <img class="footer-img" src="images\Portfolio.svg">
+         <li class="list-item-inline">
+             <a class="link" href="https://github.com/Skullninja72">
+                 GitHub
+             </a>
+         </li>
+         <li class="list-item-inline">
+             <a class="link" href="https://www.linkedin.com/in/amey-joshi-a72bb6136/">
+                 Linkedin
+             </a>
+         </li>
+         <li class="list-item-inline">
+             <a class="link" href="https://twitter.com/AmeyRJoshi?s=03">
+                 Twitter
+             </a>
+         </li>
+         <hr>
+         <div class="bottom">
+             🖖 Live long and prosper! || AMEY || 2020
+         </div>
+     </ul>
+ </footer>
+
+
 
      <script src="App.js" type="text/javascript"></script>
 </body>
