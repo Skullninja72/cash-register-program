@@ -12,7 +12,10 @@ body{
      background: #1f4037;  /* fallback for old browsers */
 background: -webkit-linear-gradient(to right, #99f2c8, #1f4037);  /* Chrome 10-25, Safari 5.1-6 */
 background: linear-gradient(to right, #99f2c8, #1f4037); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+background-size: 100% 100%;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-attachment: fixed;
 }
 
 button {
@@ -61,6 +64,7 @@ button {
      border-top-right-radius: 1rem;
      border-top-left-radius: 1rem;
      border-bottom-right-radius: 1rem;
+     
   
  }
  
@@ -73,8 +77,8 @@ button {
  }
 
  textarea {
-     width: 50%;
-     height: 10vh;
+  width: 50%;
+  height: 10vh;
      display: block;
      margin: 1rem;
      padding: 1rem;
